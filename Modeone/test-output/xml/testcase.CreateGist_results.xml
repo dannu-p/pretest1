@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Login"
+           tests="1"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="0.000">
+  <properties />
+            <testcase name="loginAsUser" time="0.000" classname="testcase.CreateGist">
+                <failure type="org.testng.TestNGException"
+                  message="
+Method public void testcase.CreateGist.loginAsUser(java.lang.String,java.lang.String) throws java.lang.InterruptedException requires a @DataProvider named : Data"
+              >
+<![CDATA[org.testng.TestNGException: 
+Method public void testcase.CreateGist.loginAsUser(java.lang.String,java.lang.String) throws java.lang.InterruptedException requires a @DataProvider named : Data
+  org.testng.internal.Parameters.findDataProvider(Parameters.java:580)
+  org.testng.internal.Parameters.handleParameters(Parameters.java:795)
+  org.testng.internal.Parameters.handleParameters(Parameters.java:762)
+  org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:60)
+  org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:39)
+  org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:771)
+  org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+  java.util.ArrayList.forEach(ArrayList.java:1257)
+  org.testng.TestRunner.privateRun(TestRunner.java:770)
+  org.testng.TestRunner.run(TestRunner.java:591)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+  org.testng.SuiteRunner.run(SuiteRunner.java:304)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+  org.testng.TestNG.runSuites(TestNG.java:1032)
+  org.testng.TestNG.run(TestNG.java:1000)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+  
+</testsuite>

@@ -1,0 +1,6 @@
+22:41:45,058 DEBUG devpinoyLogger:41 - config file loaded!!
+22:41:45,062 DEBUG devpinoyLogger:54 - object file loaded!!
+22:41:47,812 DEBUG devpinoyLogger:67 - chrome launched!!
+22:42:04,349 DEBUG devpinoyLogger:74 - Navigated to : https://github.com/
+22:42:04,871 DEBUG devpinoyLogger:17 - add gist case ok
+22:42:10,991 DEBUG devpinoyLogger:89 - test execution ended

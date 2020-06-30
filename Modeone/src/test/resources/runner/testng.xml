@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Data Driven basic">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
+		<listener class-name="listener.CustomListeners"></listener>
+	</listeners>
+
+	<test name="AddGist">
+		<classes>
+			<class name="testcase.LoginGit" />
+			<class name="testcase.CreateGist" />
+		</classes>
+	</test>
+
+	<!-- <test name="AllGist"> <classes> <class name="testcase.LoginGit" /> 
+		<class name="testcase.AllGist" /> </classes> </test> -->
+
+
+	<!-- Test -->
+</suite> <!-- Suite -->
